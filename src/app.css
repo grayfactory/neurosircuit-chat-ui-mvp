@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #FF4D6D;
+  --background-light: #F7F8FA;
+  --background-dark: #1A1A1B;
+  --surface-light: #FFFFFF;
+  --surface-dark: #2D2D2E;
+  --text-light: #1C1C1E;
+  --text-dark: #E5E5E7;
+  --text-light-secondary: #636366;
+  --text-dark-secondary: #A2A2A5;
+  --border-light: #E5E5E7;
+  --border-dark: #3A3A3C;
+  --user-bubble-light: #4A4A4A;
+  --user-bubble-dark: #3A3A3C;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.material-icons {
+  font-size: inherit;
+  line-height: inherit;
+}
