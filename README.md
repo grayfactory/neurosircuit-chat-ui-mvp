@@ -12,7 +12,7 @@ Modern chatbot UI built with Svelte 5, TypeScript, and Tailwind CSS.
 
 ## 📦 프로젝트 구조
 
-\`\`\`
+```
 chat-ui-mvp/
 ├── src/
 │   ├── lib/
@@ -30,11 +30,11 @@ chat-ui-mvp/
 ├── vite.config.ts
 ├── tailwind.config.js
 └── package.json
-\`\`\`
+```
 
 ## 🛠️ 개발
 
-\`\`\`bash
+```bash
 # 의존성 설치
 npm install
 
@@ -43,17 +43,19 @@ npm run dev
 
 # 타입 체크
 npm run check
-\`\`\`
+```
 
 ## 📦 빌드 & 배포
+
 ### GitHub Pages (간편 - 무료)
 
 **수동 배포:**
-\`\`\`bash
+```bash
 npm run deploy
-\`\`\`
+```
 
 **자동 배포 (추천):**
+
 1. GitHub에 코드 push
 2. Repository Settings → Pages
 3. Source: "Deploy from a branch" 선택
@@ -77,7 +79,7 @@ npm run deploy
 
 API 서버 주소를 변경하려면 이 파일을 수정하세요:
 
-\`\`\`typescript
+```typescript
 export const config: ChatConfig = {
   apiUrl: "http://localhost:8008/chat",  // ← 여기서 변경
   historyWindowSize: 10,
@@ -87,13 +89,13 @@ export const config: ChatConfig = {
   userId: "user_0009",
   userName: "송민호"
 }
-\`\`\`
+```
 
 ### API 요청 형식
 
 API는 다음 형식으로 요청을 받습니다:
 
-\`\`\`json
+```json
 {
   "messages": [
     {
@@ -106,10 +108,10 @@ API는 다음 형식으로 요청을 받습니다:
     }
   ]
 }
-\`\`\`
+```
 
-응답 형식:
-\`\`\`json
+**응답 형식:**
+```json
 {
   "answer": "AI 응답 메시지",
   "used_rag": false,
@@ -118,4 +120,4 @@ API는 다음 형식으로 요청을 받습니다:
   "tokens_used": null,
   "rag_context": null
 }
-\`\`\`
+```
