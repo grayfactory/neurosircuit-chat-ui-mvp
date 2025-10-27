@@ -85,7 +85,7 @@ export const config: ChatConfig = {
   historyWindowSize: 10,
   maxTokens: 1024,
   temperature: 0.7,
-  timeout: 30000,
+  timeout: 300000,
   userId: "user_0009",
   userName: "송민호"
 }
