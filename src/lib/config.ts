@@ -1,7 +1,7 @@
 import type { ChatConfig } from './types'
 
 export const config: ChatConfig = {
-  apiUrl: "http://localhost:8008/chat",
+  apiUrl: "http://106.252.38.205:8900/",
   historyWindowSize: 10,
   maxTokens: 1024,
   temperature: 0.7,
