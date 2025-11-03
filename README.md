@@ -45,25 +45,6 @@ npm run dev
 npm run check
 ```
 
-## 📦 빌드 & 배포
-
-### GitHub Pages (간편 - 무료)
-
-**수동 배포:**
-```bash
-npm run deploy
-```
-
-**자동 배포 (추천):**
-
-1. GitHub에 코드 push
-2. Repository Settings → Pages
-3. Source: "Deploy from a branch" 선택
-4. Branch: "gh-pages" 선택
-5. 완료! `https://username.github.io/repo-name` 접속
-
-이후 main/master 브랜치에 push할 때마다 자동 배포됩니다.
-
 ## 🎨 컴포넌트
 
 - **ChatMessage**: 사용자/어시스턴트 메시지 렌더링
